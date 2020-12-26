@@ -54,8 +54,6 @@ namespace TravelRecordApp
 
                 };
 
-                //test - slet igen
-
                 //bruger "using" i stedet for conn.Close(), da using bruger Idisposable til at dispose alt inden i curly-brackets'ne under using.
                 using (SQLiteConnection conn = new SQLiteConnection(App.DatabaseLocation))
                 {
